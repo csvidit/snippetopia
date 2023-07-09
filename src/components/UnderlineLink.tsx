@@ -36,6 +36,6 @@ const UnderlineLink: React.FC<UnderlineLinkProps> = (props) => {
   );
 };
 
-Link.defaultProps = defaultProps;
+UnderlineLink.defaultProps = defaultProps;
 
 export default UnderlineLink;

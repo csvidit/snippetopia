@@ -1,4 +1,5 @@
 import Link from "next/link";
+import TertiaryLink from "./TertiaryLink";
 
 const Footer = () => {
   return (
@@ -13,9 +14,9 @@ const Footer = () => {
             A free repository of high-quality web development
             snippets &#8212; React, Next.js client and server-side, TailwindCSS, and Framer Motion is on the menu.
           </p>
-          <p className="">
-            A project by <Link href="https://viditkhandelwal.com" className="inline text-indigo-600 hover:text-indigo-600 hover:border-b hover:border-b-indigo-600 transition-all duration-100">Vidit Khandelwal</Link>. Snippetopia is not endorsed by React, Next.js, and/or Tailwind Labs in any shape or form, financial or otherwise.
-          </p>
+          <div className="">
+            A project by <TertiaryLink href="https://viditkhandelwal.com" external>Vidit Khandelwal</TertiaryLink>. Snippetopia is not endorsed by React, Next.js, and/or Tailwind Labs in any shape or form, financial or otherwise.
+          </div>
         </div>
       </div>
     </div>
