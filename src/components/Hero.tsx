@@ -2,6 +2,8 @@ import Link from "next/link";
 import Image from "next/image";
 import H1 from "./H1";
 import { HiArrowUpRight } from "react-icons/hi2";
+import PillLink from "./PillLink";
+import UnderlineLink from "./UnderlineLink";
 
 const Hero = () => {
   return (
@@ -14,23 +16,10 @@ const Hero = () => {
           All the React, Next.js, TailwindCSS, and Framer Motion snippets you
           will ever need.
         </p>
-        <p className="px-4 py-1 bg-indigo-600 text-indigo-100 w-fit rounded-full">
+        <p className="px-5 py-1 bg-indigo-600 text-indigo-100 w-fit rounded-full">
           Coming Soon
         </p>
-        <Link
-          href="https://viditkhandelwal.com"
-          target="_blank"
-          className="flex group border-b border-indigo-600 w-fit transition-all ease-in-out duration-200"
-        >
-          <div className="inline space-x-2 items-center">
-            <span className="inline group-hover:text-indigo-600 transition-all ease-in-out duration-200">
-              For now, continue to viditkhandelwal.com
-            </span>
-            <span className="inline text-indigo-600">
-              <HiArrowUpRight className="inline" />
-            </span>
-          </div>
-        </Link>
+        <UnderlineLink href="https://viditkhandelwal.com" external>For now, continue to viditkhandelwal.com</UnderlineLink>
       </div>
     </div>
   );
