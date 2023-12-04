@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { HiArrowRight, HiArrowUpRight } from "react-icons/hi2";
+import { PiArrowRight, PiArrowUpRight } from "react-icons/pi";
 
 interface PillLinkProps {
   href: string;
@@ -10,12 +11,12 @@ interface PillLinkProps {
 }
 
 const defaultProps: PillLinkProps = {
-    href: "/",
-    variant: "outline",
-    children: "Link",
-    external: false,
-    className: ""
-}
+  href: "/",
+  variant: "outline",
+  children: "Link",
+  external: false,
+  className: "",
+};
 
 const PillLink: React.FC<PillLinkProps> = (props) => {
   return (
@@ -28,15 +29,14 @@ const PillLink: React.FC<PillLinkProps> = (props) => {
           : "bg-indigo-100 text-indigo-600 hover:bg-indigo-600 hover:text-indigo-100"
       }`}
     >
-      <div className="inline space-x-2.5 items-center">
+      <div className="inline-flex space-x-2.5 items-center">
         <span className="inline items-center">{props.children}</span>
-        <span className="inline">
-          {props.external == true ? (
-            <HiArrowUpRight className="inline" />
-          ) : (
-            <HiArrowRight className="inline" />
-          )}
-        </span>
+
+        {props.external ? (
+          <PiArrowUpRight className="inline" />
+        ) : (
+          <PiArrowRight className="inline" />
+        )}
       </div>
     </Link>
   );
