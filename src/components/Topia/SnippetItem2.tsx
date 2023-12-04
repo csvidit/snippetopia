@@ -73,7 +73,7 @@ const SnippetItem = (props: {}) => {
                 layout
                 className="w-full h-full max-h-full overflow-hidden"
               >
-                <CopyBlock
+                {/* <CopyBlock
                   text={`import { useEffect } from 'react';
           import { motion, AnimatePresence } from 'framer-motion';
           
@@ -142,7 +142,7 @@ const SnippetItem = (props: {}) => {
                     overflow: "scroll",
                   }}
                   wrapLines
-                />
+                /> */}
               </motion.div>
             </AnimatePresence>
           ) : (
