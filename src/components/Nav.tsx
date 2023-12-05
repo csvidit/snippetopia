@@ -37,9 +37,9 @@ const Nav = () => {
               layout
               style={{
                 // borderRadius: isOpen ? "16px" : "9999px",
-                borderBottom: "1px solid #a5b4fc",
+                border: "1px solid #a5b4fc",
               }}
-              className="z-50 flex flex-col absolute top-5 lg:top-10 w-11/12 lg:w-10/12 items-start bg-indigo-100"
+              className="bg-indigo-200 rounded-md z-50 flex flex-col absolute top-5 lg:top-10 w-11/12 lg:w-10/12 items-start px-5 shadow-sm shadow-indigo-300"
             >
               <AnimatePresence mode="popLayout">
                 <motion.div

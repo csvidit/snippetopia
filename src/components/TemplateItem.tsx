@@ -24,7 +24,7 @@ const TemplateItem = (props: {
         </div>
         <p>{props.children}</p>
         <div className="flex flex-row flex-wrap gap-2.5">
-          <PillLink variant="fill" href={props.demoHref}>
+          <PillLink variant="fill" external href={props.demoHref}>
             Live Demo
           </PillLink>
           <PillLink variant="outline" external href={props.codeHref}>
@@ -51,7 +51,7 @@ const TemplateItem = (props: {
           className="w-full h-[200px] lg:h-[400px] relative"
         >
           <Image
-            alt="Bento Portfolio Demo Screenshot"
+            alt="Demo Screenshot"
             src={props.imgSrc}
             fill
             style={{ objectFit: "contain" }}
