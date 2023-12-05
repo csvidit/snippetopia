@@ -5,7 +5,7 @@ import { CopyBlock, irBlack } from "react-code-blocks";
 
 const BentoIntro = () => {
   return (
-    <div className="mt-10 lg:mt-40 w-11/12 lg:w-10/12 flex flex-col items-center justify-center lg:justify-start lg:flex-row lg:space-x-5 lg:space-y-0 space-y-5 h-full">
+    <div className="mt-40 w-11/12 lg:w-10/12 flex flex-col items-center justify-center lg:justify-start lg:flex-row lg:space-x-5 lg:space-y-0 space-y-5 h-full">
       <div className="flex flex-col space-y-5">
         <h1 className="font-medium tracking-tight">
           BENTO{" "}
