@@ -11,8 +11,9 @@ const Intro = () => {
         <h1 className="font-medium tracking-tight">
           TOPIA <span className="text-indigo-300">UI COLLECTION</span>
         </h1>
-        <p>
-          The first Snippetopia collection. Be patient, I am still figuring out
+        <p>Coming Soon</p>
+        {/* <p>
+          The first Snippetopia UI component collection. Be patient, I am still figuring out
           the direction I want this collection to go in, but for now, it is a
           collection of great components and utility snippets which combine the
           best of Tailwind and Framer Motion.
@@ -26,15 +27,15 @@ const Intro = () => {
           Tailwind&apos;s own animation utility classes are very limited, and
           all the Framer Motion examples online are for Framer, the website
           builder, not Framer Motion, the animation library.
-        </div>
+        </div> */}
         {/* <div className="flex flex-row flex-wrap space-x-2.5">
           <p className="px-5 py-1 bg-indigo-600 text-indigo-100 w-fit rounded-full">
             Components
           </p>
         </div> */}
-        <div className="flex flex-col space-y-10">
+        {/* <div className="flex flex-col space-y-10">
           <SnippetItem  />
-        </div>
+        </div> */}
       </div>
     </div>
   );
