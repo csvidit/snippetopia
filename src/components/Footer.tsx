@@ -14,8 +14,9 @@ const Footer = () => {
             A free repository of high-quality web development
             snippets &#8212; React, Next.js client and server-side, TailwindCSS, and Framer Motion is on the menu.
           </p>
+          <p>Check out <TertiaryLink href="https://lume.csvid.it">Lume Wallpapers</TertiaryLink> for high quality wallpapers and design assets.</p>
           <div className="">
-            A project by <TertiaryLink href="https://viditkhandelwal.com" external>Vidit Khandelwal</TertiaryLink>. Snippetopia is not endorsed by React, Next.js, and/or Tailwind Labs in any shape or form, financial or otherwise.
+            A project by <TertiaryLink href="https://viditkhandelwal.com">Vidit Khandelwal</TertiaryLink>. Snippetopia is not endorsed by React, Next.js, and/or Tailwind Labs in any shape or form, financial or otherwise.
           </div>
         </div>
       </div>

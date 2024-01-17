@@ -1,9 +1,6 @@
 import PillLink from "./PillLink";
 import Image from "next/image";
-import { SiNextdotjs, SiTailwindcss } from "react-icons/si";
-import { TbBrandFramerMotion } from "react-icons/tb";
 import Link from "next/link";
-import IconsContainer from "./IconsContainer";
 import TertiaryLink from "./TertiaryLink";
 
 const TemplateItem = (props: {
