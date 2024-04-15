@@ -5,7 +5,7 @@ import IconsContainer from "../IconsContainer";
 
 const InvernoList = () => {
   return (
-    <div className="flex flex-col gap-5 items-start">
+    <div className="flex flex-col items-start gap-5">
       <TemplateItem
         label="Inverno Single Page Portfolio"
         icons={
@@ -15,7 +15,7 @@ const InvernoList = () => {
             <TbBrandFramerMotion />
           </IconsContainer>
         }
-        demoHref="https://inverno-portfolio.demos.vidit.page/"
+        demoHref="https://inverno-portfolio.demos.csvid.it/"
         codeHref="https://github.com/csvidit/inverno-portfolio"
         imgSrc="/inverno-portfolio-demo-screenshot-2.png"
         license="mit"

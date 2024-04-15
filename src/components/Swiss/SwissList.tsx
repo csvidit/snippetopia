@@ -6,7 +6,7 @@ import IconsContainer from "../IconsContainer";
 
 const SwissList = () => {
   return (
-    <div className="flex flex-col gap-5 items-start">
+    <div className="flex flex-col items-start gap-5">
       <TemplateItem
         label="Swiss Link In Bio Page"
         icons={
@@ -16,7 +16,7 @@ const SwissList = () => {
             <TbBrandFramerMotion />
           </IconsContainer>
         }
-        demoHref="https://bio-swiss.demos.vidit.page/"
+        demoHref="https://swiss-bio.demos.csvid.it"
         codeHref="https://github.com/csvidit/bio-swiss"
         imgSrc="/swiss-bio-demo-screenshot.png"
         license="mit"

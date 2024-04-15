@@ -6,7 +6,7 @@ import IconsContainer from "../IconsContainer";
 
 const BentoList = () => {
   return (
-    <div className="flex flex-col gap-5 items-start">
+    <div className="flex flex-col items-start gap-5">
       <TemplateItem
         label="Bento Portfolio Page"
         icons={
@@ -16,7 +16,7 @@ const BentoList = () => {
             <TbBrandFramerMotion />
           </IconsContainer>
         }
-        demoHref="https://bento-portfolio.demos.vidit.page/"
+        demoHref="https://bento-portfolio.demos.csvid.it/"
         codeHref="https://github.com/csvidit/bento-portfolio-concept"
         imgSrc="/bento-portfolio-demo-screenshot.png"
         license="mit"
@@ -35,7 +35,7 @@ const BentoList = () => {
             <TbBrandFramerMotion />
           </IconsContainer>
         }
-        demoHref="https://bento-bio.demos.vidit.page/"
+        demoHref="https://bento-bio.demos.csvid.it/"
         codeHref="https://github.com/csvidit/bento-bio-concept"
         imgSrc="/bento-bio-demo-screenshot.png"
         license="gnu"
