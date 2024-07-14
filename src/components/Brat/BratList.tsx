@@ -20,7 +20,7 @@ const BratList = () => {
         demoHref={BRAT_BIO_DEMO_URL}
         codeHref={BRAT_BIO_GITHUB_URL}
         imgSrc="/brat-bio-demo-screenshot.png"
-        license="mit"
+        license={Licenses.UNLICENSE}
       >
         This template uses the &apos;brat&apos; neon color and a condensed sans-serif font
         to mimic the vibe of Charli xcx&apos;s new album.

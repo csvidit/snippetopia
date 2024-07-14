@@ -21,7 +21,7 @@ const SwissList = () => {
         demoHref={SWISS_BIO_DEMO_URL}
         codeHref={SWISS_BIO_GITHUB_URL}
         imgSrc="/swiss-bio-demo-screenshot.png"
-        license="mit"
+        license={Licenses.MIT}
       >
         This template uses a clean sans-serif typeface along with a mostly
         monochromatic color palette. It employs Framer Motion for beautiful

@@ -9,13 +9,14 @@ const TemplateItem = (props: {
   codeHref: string;
   demoHref: string;
   imgSrc: string;
-  license: "mit" | "gnu";
+  license: Licenses
   children: string;
 }) => {
+
   return (
-    <div className="flex flex-col lg:flex-row gap-5">
-      <div className="w-full lg:w-1/2 flex flex-col space-y-5 justify-start">
-        <div className="inline-flex justify-between items-baseline">
+    <div className="flex flex-col gap-5 lg:flex-row">
+      <div className="flex flex-col justify-start w-full space-y-5 lg:w-1/2">
+        <div className="inline-flex items-baseline justify-between">
           <h2>{props.label}</h2>
           {props.icons}
         </div>
@@ -30,15 +31,9 @@ const TemplateItem = (props: {
         </div>
         <div className="">
           This template is licensed under the <TertiaryLink
-            href={
-              props.license == "mit"
-                ? "https://opensource.org/license/mit/"
-                : "https://opensource.org/license/gpl-3-0/"
-            }
+            href={licenses[props.license].url}
           >
-            {props.license == "mit"
-              ? "MIT License"
-              : "GNU General Public License v3.0"}
+            {licenses[props.license].name}
           </TertiaryLink>
         </div>
       </div>

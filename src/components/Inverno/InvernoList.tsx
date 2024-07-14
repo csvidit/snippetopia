@@ -20,7 +20,7 @@ const InvernoList = () => {
         demoHref={INVERNO_PORTFOLIO_DEMO_URL}
         codeHref={INVERNO_PORTFOLIO_GITHUB_URL}
         imgSrc="/inverno-portfolio-demo-screenshot-2.png"
-        license="mit"
+        license={Licenses.MIT}
       >
         This template uses a clean sans-serif typeface along with a mostly
         monochromatic color palette. It employs Framer Motion for beautiful

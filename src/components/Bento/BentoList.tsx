@@ -21,7 +21,7 @@ const BentoList = () => {
         demoHref={BENTO_PORTFOLIO_DEMO_URL}
         codeHref={BENTO_PORTFOLIO_GITHUB_URL}
         imgSrc="/bento-portfolio-demo-screenshot.png"
-        license="mit"
+        license={Licenses.MIT}
       >
         This template makes use of a wonderful combination of dark forest and
         pine colors along with cool grays. It is geared towards designers and
@@ -40,7 +40,7 @@ const BentoList = () => {
         demoHref={BENTO_BIO_DEMO_URL}
         codeHref={BENTO_BIO_GITHUB_URL}
         imgSrc="/bento-bio-demo-screenshot.png"
-        license="gnu"
+        license={Licenses.GPL}
       >
         This template uses a combination of cool grays and a bright blue to give
         a clean, professional, and technical look. The use of different font
