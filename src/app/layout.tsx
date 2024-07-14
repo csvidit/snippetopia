@@ -1,10 +1,11 @@
 import Footer from "@/components/Footer";
-import MainContainer from "@/components/MainContainer";
-import Nav from "@/components/Nav";
-import "./globals.css"
-import { Manrope } from "next/font/google"
 
-const manrope = Manrope({ subsets: ["latin"] });
+import "./globals.css"
+import Header from "@/components/header/Header";
+import MainContainer from "@/components/MainContainer";
+// import { Manrope } from "next/font/google"
+
+// const manrope = Manrope({ subsets: ["latin"] });
 
 export const metadata = {
   title: "Snippetopia",
@@ -57,9 +58,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={manrope.className}>
+      <body className="">
         <MainContainer>
-          <Nav />
+          <Header />
           {children}
           <Footer />
         </MainContainer>
