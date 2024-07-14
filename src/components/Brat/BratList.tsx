@@ -5,7 +5,7 @@ import IconsContainer from "../IconsContainer";
 import { BRAT_BIO_DEMO_URL } from "@/utils/urls/demo-urls";
 import { BRAT_BIO_GITHUB_URL } from "@/utils/urls/github-urls";
 
-const InvernoList = () => {
+const BratList = () => {
   return (
     <div className="flex flex-col items-start gap-5">
       <TemplateItem
@@ -22,11 +22,11 @@ const InvernoList = () => {
         imgSrc="/brat-bio-demo-screenshot.png"
         license="mit"
       >
-        This template uses the 'brat' neon color and a condensed sans-serif font
+        This template uses the &apos;brat&apos; neon color and a condensed sans-serif font
         to mimic the vibe of Charli xcx's new album.
       </TemplateItem>
     </div>
   );
 };
 
-export default InvernoList;
+export default BratList;
