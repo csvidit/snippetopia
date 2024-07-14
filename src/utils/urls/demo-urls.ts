@@ -4,3 +4,4 @@ export const BENTO_BIO_DEMO_URL = "https://bento-bio.demos.snippetopa.xyz";
 export const SWISS_BIO_DEMO_URL = "https://swiss-bio.demos.snippetopa.xyz";
 export const INVERNO_PORTFOLIO_DEMO_URL =
   "https://inverno-portfolio.demos.snippetopa.xyz";
+export const BRAT_BIO_DEMO_URL = "https://brat-bio.demos.snippetopa.xyz";
