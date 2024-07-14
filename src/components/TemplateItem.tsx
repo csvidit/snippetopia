@@ -2,7 +2,7 @@ import PillLink from "./PillLink";
 import Image from "next/image";
 import Link from "next/link";
 import TertiaryLink from "./TertiaryLink";
-import { Licenses } from "@/utils/types/license-types";
+import { licenses, Licenses } from "@/utils/types/license-types";
 
 const TemplateItem = (props: {
   label: string;
