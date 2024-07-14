@@ -14,7 +14,7 @@ const BratIntro = () => {
           <span className="font-medium text-gray-950">
             What is this collection about?
           </span>{" "}
-          Inspired by the new Charli xcx album! It's edgy, it's minimalist, its
+          Inspired by the new Charli xcx album! It&apos;s edgy, it's minimalist, its
           Gen-Z.
         </div>
       </div>
