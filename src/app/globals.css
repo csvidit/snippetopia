@@ -1,9 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@tailwind variants;
 
 h1 {
-  @apply text-2xl lg:text-4xl text-indigo-600;
+  @apply text-2xl text-indigo-600 lg:text-4xl;
 }
 
 h2 {
