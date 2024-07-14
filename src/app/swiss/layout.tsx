@@ -1,7 +1,7 @@
-import "../globals.css";
+import "../globals.css"
 
 export const metadata = {
-  title: "Bento Collection - Snippetopia",
+  title: "Swiss Collection - Snippetopia",
   description:
     "A ollection of bento-grid design Next.js snippets and templates.",
   authors: [{ name: "Vidit Khandelwal", url: "https://viditkhandelwal.com" }],
