@@ -2,8 +2,8 @@ import { SiNextdotjs, SiTailwindcss } from "react-icons/si";
 import { TbBrandFramerMotion } from "react-icons/tb";
 import TemplateItem from "../TemplateItem";
 import IconsContainer from "../IconsContainer";
-import { BRAT_BIO_DEMO_URL, INVERNO_PORTFOLIO_DEMO_URL } from "@/utils/urls/demo-urls";
-import { BRAT_BIO_GITHUB_URL, INVERNO_PORTFOLIO_GITHUB_URL } from "@/utils/urls/github-urls";
+import { BRAT_BIO_DEMO_URL } from "@/utils/urls/demo-urls";
+import { BRAT_BIO_GITHUB_URL } from "@/utils/urls/github-urls";
 
 const InvernoList = () => {
   return (
