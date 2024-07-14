@@ -5,6 +5,7 @@ import TemplateItem from "../TemplateItem";
 import IconsContainer from "../IconsContainer";
 import { SWISS_BIO_DEMO_URL } from "@/utils/urls/demo-urls";
 import { SWISS_BIO_GITHUB_URL } from "@/utils/urls/github-urls";
+import { Licenses } from "@/utils/types/license-types";
 
 const SwissList = () => {
   return (

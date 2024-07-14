@@ -4,6 +4,7 @@ import TemplateItem from "../TemplateItem";
 import IconsContainer from "../IconsContainer";
 import { INVERNO_PORTFOLIO_DEMO_URL } from "@/utils/urls/demo-urls";
 import { INVERNO_PORTFOLIO_GITHUB_URL } from "@/utils/urls/github-urls";
+import { Licenses } from "@/utils/types/license-types";
 
 const InvernoList = () => {
   return (

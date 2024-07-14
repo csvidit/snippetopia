@@ -4,6 +4,7 @@ import TemplateItem from "../TemplateItem";
 import IconsContainer from "../IconsContainer";
 import { BRAT_BIO_DEMO_URL } from "@/utils/urls/demo-urls";
 import { BRAT_BIO_GITHUB_URL } from "@/utils/urls/github-urls";
+import { Licenses } from "@/utils/types/license-types";
 
 const BratList = () => {
   return (
