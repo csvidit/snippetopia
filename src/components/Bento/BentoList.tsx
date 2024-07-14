@@ -3,6 +3,8 @@ import { TbBrandFramerMotion } from "react-icons/tb";
 import PillLink from "../PillLink";
 import TemplateItem from "../TemplateItem";
 import IconsContainer from "../IconsContainer";
+import { BENTO_BIO_DEMO_URL, BENTO_PORTFOLIO_DEMO_URL } from "@/utils/urls/demo-urls";
+import { BENTO_BIO_GITHUB_URL, BENTO_PORTFOLIO_GITHUB_URL } from "@/utils/urls/github-urls";
 
 const BentoList = () => {
   return (
@@ -16,8 +18,8 @@ const BentoList = () => {
             <TbBrandFramerMotion />
           </IconsContainer>
         }
-        demoHref="https://bento-portfolio.demos.csvid.it/"
-        codeHref="https://github.com/csvidit/bento-portfolio-concept"
+        demoHref={BENTO_PORTFOLIO_DEMO_URL}
+        codeHref={BENTO_PORTFOLIO_GITHUB_URL}
         imgSrc="/bento-portfolio-demo-screenshot.png"
         license="mit"
       >
@@ -35,8 +37,8 @@ const BentoList = () => {
             <TbBrandFramerMotion />
           </IconsContainer>
         }
-        demoHref="https://bento-bio.demos.csvid.it/"
-        codeHref="https://github.com/csvidit/bento-bio-concept"
+        demoHref={BENTO_BIO_DEMO_URL}
+        codeHref={BENTO_BIO_GITHUB_URL}
         imgSrc="/bento-bio-demo-screenshot.png"
         license="gnu"
       >

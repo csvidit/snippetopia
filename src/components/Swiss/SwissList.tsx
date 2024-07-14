@@ -3,6 +3,8 @@ import { TbBrandFramerMotion } from "react-icons/tb";
 import PillLink from "../PillLink";
 import TemplateItem from "../TemplateItem";
 import IconsContainer from "../IconsContainer";
+import { SWISS_BIO_DEMO_URL } from "@/utils/urls/demo-urls";
+import { SWISS_BIO_GITHUB_URL } from "@/utils/urls/github-urls";
 
 const SwissList = () => {
   return (
@@ -16,8 +18,8 @@ const SwissList = () => {
             <TbBrandFramerMotion />
           </IconsContainer>
         }
-        demoHref="https://swiss-bio.demos.csvid.it"
-        codeHref="https://github.com/csvidit/bio-swiss"
+        demoHref={SWISS_BIO_DEMO_URL}
+        codeHref={SWISS_BIO_GITHUB_URL}
         imgSrc="/swiss-bio-demo-screenshot.png"
         license="mit"
       >

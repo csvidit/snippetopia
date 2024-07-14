@@ -2,6 +2,8 @@ import { SiNextdotjs, SiTailwindcss } from "react-icons/si";
 import { TbBrandFramerMotion } from "react-icons/tb";
 import TemplateItem from "../TemplateItem";
 import IconsContainer from "../IconsContainer";
+import { INVERNO_PORTFOLIO_DEMO_URL } from "@/utils/urls/demo-urls";
+import { INVERNO_PORTFOLIO_GITHUB_URL } from "@/utils/urls/github-urls";
 
 const InvernoList = () => {
   return (
@@ -15,8 +17,8 @@ const InvernoList = () => {
             <TbBrandFramerMotion />
           </IconsContainer>
         }
-        demoHref="https://inverno-portfolio.demos.csvid.it/"
-        codeHref="https://github.com/csvidit/inverno-portfolio"
+        demoHref={INVERNO_PORTFOLIO_DEMO_URL}
+        codeHref={INVERNO_PORTFOLIO_GITHUB_URL}
         imgSrc="/inverno-portfolio-demo-screenshot-2.png"
         license="mit"
       >
