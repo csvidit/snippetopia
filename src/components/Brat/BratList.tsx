@@ -22,8 +22,7 @@ const BratList = () => {
         imgSrc="/brat-bio-demo-screenshot.png"
         license="mit"
       >
-        This template uses the &apos;brat&apos; neon color and a condensed sans-serif font
-        to mimic the vibe of Charli xcx&apos;s new album.
+        This template uses the &apos;brat&apos; neon color and a condensed sans-serif font to mimic the vibe of Charli xcx&apos;s new album.
       </TemplateItem>
     </div>
   );
