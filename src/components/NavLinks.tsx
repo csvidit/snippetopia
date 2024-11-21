@@ -25,6 +25,7 @@ const NavLinks = (props: { isOpen: boolean }) => {
               <NavItem href="/inverno">Inverno Collection</NavItem>
               <NavItem href="/swiss">Swiss Collection</NavItem>
               <NavItem href="/brat">Brat Collection</NavItem>
+              <NavItem href="/pop">Pop Collection</NavItem>
               {/* <NavItem href="/topia">Topia Collection</NavItem> */}
               <NavItem href="https://viditkhandelwal.com">
                 viditkhandelwal.com
