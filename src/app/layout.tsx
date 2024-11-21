@@ -1,10 +1,10 @@
 import Footer from "@/components/Footer";
 import MainContainer from "@/components/MainContainer";
 import Nav from "@/components/Nav";
-import "./globals.css"
-import { Manrope } from "next/font/google"
+import "./globals.css";
+import { Manrope } from "next/font/google";
 
-const manrope = Manrope({ subsets: ["latin"] });
+const manrope = Manrope({ subsets: ["latin"], display: "swap" });
 
 export const metadata = {
   title: "Snippetopia",
@@ -28,25 +28,26 @@ export const metadata = {
     "collection",
     "components",
     "UI",
-    "templates"
+    "templates",
   ],
   creator: "Vidit Khandelwal",
   publisher: "Vidit Khandelwal",
-  metadataBase: new URL('https://snippetopia.xyz'),
+  metadataBase: new URL("https://snippetopia.xyz"),
   openGraph: {
-    title: 'Snippetopia',
-    description: 'All the React, Next.js, TailwindCSS, and Framer Motion snippets you will ever need.',
-    url: 'https://snippetopia.xyz',
-    siteName: 'Snippetopia',
+    title: "Snippetopia",
+    description:
+      "All the React, Next.js, TailwindCSS, and Framer Motion snippets you will ever need.",
+    url: "https://snippetopia.xyz",
+    siteName: "Snippetopia",
     images: [
       {
-        url: '/snippetopia-og-sm.png',
+        url: "/snippetopia-og-sm.png",
         width: 800,
         height: 600,
       },
     ],
-    locale: 'en_US',
-    type: 'website',
+    locale: "en_US",
+    type: "website",
   },
 };
 
