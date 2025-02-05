@@ -1,7 +1,7 @@
 import { redirect } from "next/navigation"
 
 const BratCollectionRedirectRoute = () => {
-    redirect("/btat")
+    redirect("/brat")
 }
 
 export default BratCollectionRedirectRoute;
